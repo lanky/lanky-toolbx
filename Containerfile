@@ -19,5 +19,5 @@ RUN dnf --assumeyes install neovim \
 
 RUN dnf clean all
 
-RUN curl -kL  https://github.com/jesseduffield/lazygit/releases/download/v0.66.1/lazygit_0.66.1_linux_x86_64.tar.gz | tar -xf - -C /usr/local/bin lazygit
-RUN curl -kL https://github.com/google/yamlfmt/releases/download/v0.21.0/yamlfmt_0.21.0_Linux_x86_64.tar.gz | tar -xzf - -C /usr/local/bin/ yamlfmt
+# RUN curl -kL  https://github.com/jesseduffield/lazygit/releases/download/v0.66.1/lazygit_0.66.1_linux_x86_64.tar.gz | tar -xf - -C /usr/local/bin lazygit
+# RUN curl -kL https://github.com/google/yamlfmt/releases/download/v0.21.0/yamlfmt_0.21.0_Linux_x86_64.tar.gz | tar -xzf - -C /usr/local/bin/ yamlfmt
